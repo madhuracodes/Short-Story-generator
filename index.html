@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cake recipes</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>AI Short Stories Generator</h1></header>
+      <main>
+        <form id="story-generator-form">
+          <input
+            type="text"
+            placeholder="Topic for your story"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div id="story">The Story</div>
+      </main>
+      <footer>
+        This project was created by Madhura and is
+        <a href="" target="_blank"> open sourced on GitHub</a>
+        and is hosted on
+        <a href="" target="_blank">Netlify</a>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
