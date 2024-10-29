@@ -2,7 +2,7 @@ function displayStory(response) {
   new Typewriter("#story", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 1,
+    delay: 0.5,
     cursor: "",
   });
 }
@@ -19,6 +19,7 @@ function generateStory(event) {
 
   let storyElemnt = document.querySelector("#story");
   storyElemnt.classList.remove("hidden");
+  storyElemnt.innerHTML = `Hmmmm 🧐 .."${userInstrtuctions.value}".. here you go..🙂`;
 
   axios.get(apiUrl).then(displayStory);
 }
