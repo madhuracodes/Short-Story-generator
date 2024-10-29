@@ -79,3 +79,14 @@ footer {
 #story strong {
   color: #ab5779;
 }
+.blink {
+  animation: blinker 0.75s linear infinite;
+  font-size: xx-large;
+  text-align: center;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

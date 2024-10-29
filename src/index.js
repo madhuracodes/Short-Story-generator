@@ -19,7 +19,7 @@ function generateStory(event) {
 
   let storyElemnt = document.querySelector("#story");
   storyElemnt.classList.remove("hidden");
-  storyElemnt.innerHTML = `Hmmmm 🧐 .."${userInstrtuctions.value}".. here you go..🙂`;
+  storyElemnt.innerHTML = `<div class="blink"> 🧐 </div>`;
 
   axios.get(apiUrl).then(displayStory);
 }
