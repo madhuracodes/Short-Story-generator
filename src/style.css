@@ -1,5 +1,5 @@
 body {
-  background-color: #eddada;
+  background-color: #f0dae5;
 }
 
 .container {
@@ -14,7 +14,7 @@ h1 {
   line-height: 1.5;
   font-size: 36px;
   text-align: center;
-  color: #72704b;
+  color: #495452;
 }
 form {
   background-color: #8ba4b3;
@@ -30,16 +30,16 @@ form {
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
-  border: 1px solid #72704b;
+  border: 1px solid #495452;
   line-height: 20px;
-  color: #72704b;
+  color: #495452;
 }
 a {
-  color: #cb8587;
+  color: #ab5779;
 }
 .submit-button {
   margin-left: 10px;
-  background-color: #cb8587;
+  background-color: #ab5779;
   color: white;
   border: none;
   width: 150px;
@@ -50,19 +50,29 @@ a {
 }
 #story {
   font-size: 16px;
-  color: #72704b;
-  font-weight: bold;
+  color: #495452;
   background-color: #8ba4b3;
   padding: 20px;
   line-height: 20px;
-  border-left: 3px solid #cb8587;
+  border-left: 3px solid #ab5779;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+::placeholder {
+  opacity: 0.6;
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
   margin-top: 30px;
   text-align: center;
-  color: #72704b;
+  color: #495452;
   font-size: 13px;
+}
+
+#story strong {
+  color: #ab5779;
 }
